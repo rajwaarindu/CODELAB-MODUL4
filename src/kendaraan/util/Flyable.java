@@ -1,5 +1,6 @@
 package kendaraan.util;
 
-public interface Flyable {
-    private void fly();
+public  interface Flyable {
+    //Menghapus access modifier dari method interface
+    void fly();
 }

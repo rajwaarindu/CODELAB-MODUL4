@@ -46,4 +46,7 @@ public abstract class Kendaraan {
     public void setTahun(int tahun){
         this.tahun = tahun;
     }
+//    Membuat method abstract Stop dan Brake
+    public abstract void Stop();
+    public abstract void Brake();
 }
